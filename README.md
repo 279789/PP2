@@ -263,8 +263,20 @@ These examples demonstrate various fundamental operations in Bash scripting, inc
 <details>
     <summary>Your Function</summary>
     
-```bash
-your code
+```
+phils_func () {
+  var1=$1
+  var2=$2
+  echo "Das Ergebnis der Summe lautet: $(($var1 + $var2))"
+
+  if [[ $var1 -lt $var2 ]]; then
+    echo "$var1 ist kleiner als $var2"
+  elif [[ $var1 -eq $var2 ]]; then
+    echo "$var1 ist gleich groß wie $var2"
+  else
+  echo "$var1 ist größer als $var2"
+  fi
+> }
 ```
 
 </details>
@@ -302,7 +314,7 @@ cat ./function
 **What happend?**
 <details>
     <summary>Your Explaination</summary>
-    .....
+    Second function is stored direct behind first function of the ./functions file.
 
 </details>
 
