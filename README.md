@@ -72,7 +72,7 @@ Try accessing the `return_value` identifier without prepending `$`.
 
 <details>
     <summary>You Answer</summary>
-    ......
+   When I am typing echo return_value, the shell takes this as an command to echo the words "return_value" back to me. To avoid this misunderstandment you have to set "$" before the variable. So that the shell "knows" that you want to get the value of the variable, and not the words "return_value".
 </details>
 
 ### Task 3: Function-Identifiers
@@ -97,7 +97,8 @@ and pressing `enter`.
 
 <details>
     <summary>Calling a Function</summary>
-    Include a screenshot of your function-call!
+    Include a screenshot of your function-call!![Screenshot 2025-04-12 131317](https://github.com/user-attachments/assets/50dfd69f-9600-4cfe-bfb6-d557714cb11b)
+
 </details>
 
 ### Task 4: Handling Parameters
