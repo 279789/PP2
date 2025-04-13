@@ -1,4 +1,4 @@
-# PP2
+cd# PP2
 
 ## Goal
 This practical exercise is supposed to teach you how the shell-interface to your operating system works. 
@@ -357,7 +357,7 @@ You can use a shorthand within your calls to add this string as a prefix to any 
 **Look at task 6 again. What is the complete filepath of your functions file?**
 <details>
     <summary>Your Answer</summary>
-    ....
+    /home/philr/Programmieren
 </details>
 
 All filenames start with a `/`. 
@@ -381,7 +381,8 @@ cd /
 **Run `ls` again and insert the content here:**
 <details>
     <summary>Your Answer</summary>
-    ....
+bin                boot  etc   init  lib.usr-is-merged  lost+found  mnt  proc  run   sbin.usr-is-merged  srv  tmp  var
+bin.usr-is-merged  dev   home  lib   lib64              media       opt  root  sbin  snap                sys  usr
 </details>
 
 Now navigate through your filesystem using `cd` and the name of the directory you want to set as your new `pwd`.
@@ -397,7 +398,17 @@ Use `rm` to delete a file and `rm -rf` to delete a directory.
 <details>
     <summary>Your Terminal Output</summary>
 ```bash
-your terminal output
+philr@Phil-Laptop:/home$ cd philr
+philr@Phil-Laptop:~$ mkdir PP2
+philr@Phil-Laptop:~$ cd PP2
+philr@Phil-Laptop:~/PP2$ touch PP2
+philr@Phil-Laptop:~/PP2$ ls
+PP2
+philr@Phil-Laptop:~/PP2$ cd ~
+philr@Phil-Laptop:~$ rm -rf PP2
+philr@Phil-Laptop:~$ ls
+ Programieren   Programmieren   TEST   echo   hello.txt   if  'var1=2'  'var1=4'  'var2=3'  'var2=5'
+philr@Phil-Laptop:~$
 ```
 </details>
 
@@ -452,10 +463,11 @@ When you finished that tutorial, open a file in your home directory and manipula
 **How do you save a buffer to a new filename from within `vim`?**
 <details>
     <summary>Your Answer</summary>
-    .....
+    You Type :w  in editor Mode to Save the File on the current name. If you want to change the name, you have to write the name behind the :w . For Example: :w File1.
 </details>
  
 
 ---
 
 **Remember:** Stop working after 90 minutes and record where you stopped!
+### I was stuck on Task 7 because my brain was cooked (I did the training and think files before). Tryed it next day and it took like 5 minutes. I did it in time anyway, because I did the vimtutor in the training and think files.
